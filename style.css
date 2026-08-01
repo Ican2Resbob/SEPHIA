@@ -33,3 +33,13 @@ font-size: 18px;
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
+CSS
+.logo-profile {
+    width: 120px;            /* Ukuran lebar logo */
+    height: 120px;           /* Ukuran tinggi logo */
+    border-radius: 50%;      /* Membuat gambar jadi bulat sempurna */
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;       /* Membuat posisi logo di tengah */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Efek bayangan halus */
+}
